@@ -1,1 +1,49 @@
-<!-- le code HTML de la formation -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style='text-align:center;'>Formation JavaScript 2021</h1><br /></h1>
+    <div class='informations-remplir' style="display: block;">
+        <form name="informations" id="informations">
+            <fieldset>
+                <legend>Vos informations:</legend>
+            <label class="gauche" for="nom">Nom :</label><input type="text" name="nom" /><br />
+            <small></small>
+            <label class="gauche" for="prenom">Prénom :</label><input type="text" name="prenom" /><br />
+            <small></small>
+            <label class="gauche" for="age">Âge :</label>
+            <select name="age">
+                <option value="">Séléctionnez votre âge</option>
+                <option value="16 ans">16 ans</option>
+                <option value="17 ans">17 ans</option>
+                <option value="18 ans">18 ans</option>
+                <option value="19 ans">19 ans</option>
+                <option value="20 ans">20 ans</option>
+                <option value="21 ans">21 ans</option>
+            </select><br />
+            <small></small>
+            <label class="gauche" for="genre">Genre :</label>
+            <input type="radio" name="genre" id="homme" value="masculin" />Homme
+            <input type="radio" name="genre" id="femme" value="feminin">Femme
+            <br />
+            <!-- afficher l'errer ici -->
+            <small></small>
+            <button type="submit" class="save-data" id='save-data'>Valider</button>
+            </fieldset>
+        </form>
+    </div>
+    <!--Doit etre afficher et remplit par les valeurs du formulaire -->
+    <div class='informations-a-afficher' style="display: none;">
+        <p class="gauche-p">Je suis <em id="nom"> ...........</em> <em id="prenom"> ............</em> de genre <em
+                id="genre"> ...........</em> et j'ai <em id="age"></em>
+    </div>
+    <hr />
+    <script type="text/javascript" src="javascripts.js"></script>
+</body>
+</html>

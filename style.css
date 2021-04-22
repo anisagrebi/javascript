@@ -1,0 +1,31 @@
+
+em {
+    color: blue;
+}
+
+button ,.save-data{
+    text-align:center; 
+    width:25%; 
+    background-color: green; 
+    font-size:1.3em
+}
+
+
+small {
+    display: block;
+    color: red;
+    margin-left: 150px;
+}
+fieldset {
+    background-color: #eeeeee;
+  }
+  
+  legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  input {
+    margin: 5px;
+  }
