@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Textarea</title>
+</head>
+<body>
+	<form action="">
+		<input id='eltr' type="text" value='Le readonly' readonly>
+		<input id='eltd' type="text" value='Le disabled' disabled>
+	</form>	
+    <script>
+        let elt = document.querySelector('input');
+        elt.readOnly = false;
+        console.log(elt.readOnly)
+        telm = document.querySelectorAll('input');
+        telm[1].disabled = false;
+        console.log(telm[1].disabled);
+    </script>
+</body>
+</html>
