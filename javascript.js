@@ -47,10 +47,8 @@ function afficher_masquer(e) {
         document.getElementsByClassName('save-data')[0].style.display='none';
         document.getElementsByClassName('informations-remplir')[0].style.display='none';
         document.getElementsByClassName('informations-a-afficher')[0].style.display='block';
-    } else{
         e.preventDefault();
     }
 }
-window.onload = function () {
-    document.getElementById('save-data').addEventListener('click', afficher_masquer);
-}
+
+document.getElementById('save-data').addEventListener('click', afficher_masquer);
