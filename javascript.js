@@ -2,4 +2,4 @@
 // window.onload = function(){
 //     alert('bonsoir')
 // };
-window.addEventListener("load", alert('bonsoir'));
+//window.addEventListener("load", alert('bonsoir'));
